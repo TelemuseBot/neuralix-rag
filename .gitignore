@@ -1,0 +1,8 @@
+backend/venv/
+backend/.env
+frontend/.env.local
+frontend/node_modules/
+backend/__pycache__/
+backend/neuralix_rag.db
+backend/storage/
+frontend/.next/
