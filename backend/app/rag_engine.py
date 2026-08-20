@@ -11,8 +11,8 @@ from app.parsing import extract_text, chunk_text
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 STORAGE_DIR = os.getenv("STORAGE_DIR", "./storage")
 
-EMBED_MODEL = "text-embedding-004"  # Gemini embedding model, free tier
-GEN_MODEL = "gemini-2.0-flash"      # fast + free-tier friendly
+EMBED_MODEL = "gemini-embedding-001"
+GEN_MODEL = "gemini-3.6-flash"      # fast + free-tier friendly
 
 _client = None
 
